@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap&family=Montserrat&display=swap');
+
+body {
+  font-family: Montserrat, sans-serif;
+  padding-top: 70px;
+  background-color: pink;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color:pink;
+}
+
+#main {
+  text-align: center;
+}
+
+#main h1 {
+  font-family: Lalezar, sans-serif;
+  font-size: 10vw;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+#main p {
+  margin: 0;
+  font-size: 4vw;
+}
+#img-div {
+  background-color: black;
+  padding: 15px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  color: pink;
+  margin-top: 10px;
+  font-size: .9em;
+}
+
+
+#tribute-info ul{
+  color: black;
+}
+
+#videos h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+#tribute-info h3{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#tribute-info a{
+  font-weight: bold;
+  color: #eb345f;
+  text-decoration: none;
+}
+#tribute-info a:hover{
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#follow {
+  background-color: black;
+  padding : 1px;
+  margin: 0;
+}
+
+#follow ul li a {
+  font-size: .9em;
+  color:pink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#follow ul li a:hover{
+  color:white;
+  text-decoration: underline;
+}
+
+#follow ul {
+  display: flex;
+  justify-content: center;
+}
+
+#follow ul li {
+  margin: 0 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+ 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
